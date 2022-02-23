@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
   height: 100vh;
   display: grid;
@@ -26,7 +26,7 @@ body {
         color: hsl(178, 100%, 50%);
       }
     }
-    .image {
+    .nft {
       position: relative;
       margin-bottom: 30px;
       border-radius: 10px;
@@ -40,18 +40,18 @@ body {
         top: 0;
         left: 0;
         background-color: hsl(178, 100%, 50%);
-        content: '';
+        content: "";
         position: absolute;
         z-index: 1;
         opacity: 0.6;
         animation: overlay-fade 1s linear;
       }
       &:hover::after {
-        content: '';
+        content: "";
         width: 50px;
         height: 50px;
         position: absolute;
-        background-image: url('images/icon-view.svg');
+        background-image: url("images/icon-view.svg");
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -75,7 +75,7 @@ body {
       font-weight: 600;
       margin-bottom: 10px;
     }
-    .info-flex {
+    .info {
       display: flex;
       justify-content: space-between;
       margin-bottom: 20px;
@@ -121,7 +121,7 @@ body {
       }
       &::before {
         width: 100%;
-        content: '';
+        content: "";
         height: 2.5px;
         background: hsl(215, 32%, 27%);
         position: absolute;
